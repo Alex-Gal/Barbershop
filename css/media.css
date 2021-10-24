@@ -1,0 +1,824 @@
+/* контрольные точки: 320 - 480, 481 - 767, 768 - 992, 992+ */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .block1 {
+    background: url(../img/Beard_main.jpg) left top no-repeat;
+  }
+
+  .wrap {
+    padding: 0 20px;
+  }
+
+  .nav__link {
+    margin-right: 30px;
+  }
+
+  .block1__top {
+    padding: 140px 0 230px 0;
+  }
+
+  .block2__advantages {
+    justify-content: space-evenly;
+  }
+
+  .block4__masters {
+    justify-content: space-evenly;
+  }
+
+  .block4__masters_box {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .discount__box:first-child {
+    margin: 0px 0px 15px 0px;
+  }
+
+  .block5__about_top {
+    padding-bottom: 0px;
+  }
+
+  .block5__about_box {
+    max-width: 350px;
+  }
+
+  .block5__about_img {
+    width: 100%;
+  }
+
+  .block5__about_text {
+    max-width: 100%;
+    padding: 0px 0px 43px 0px;
+  }
+
+  .block6 .title6::before {
+    left: -149px;
+  }
+
+  .block6 .title6::after {
+    right: -149px;
+  }
+
+  .block__title {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .block1 {
+    background: url(../img/Beard_main.jpg) left top no-repeat;
+    background-size: cover;
+  }
+
+  .wrap {
+    padding: 0 20px;
+  }
+
+  /* block1 */
+
+  /* .block__title {
+    padding-top: 30px;
+  } */
+
+  .nav_mobile {
+    display: block;
+    height: 30px;
+    padding-top: 18px;
+  }
+
+  .nav_mobile button {
+    background: url("../icons/Brgr.png") no-repeat;
+    width: 30px;
+    height: 30px;
+  }
+
+  .nav__contacts {
+    padding-top: 20px;
+  }
+
+  .nav__menu {
+    display: none;
+  }
+
+  .nav__link {
+    margin-right: 30px;
+  }
+
+  .block1__top {
+    padding: 100px 0 100px 0;
+  }
+
+  .block1__top h1 {
+    font-size: 70px;
+  }
+
+  .block1__top p {
+    font-size: 23px;
+  }
+
+  .bigButton {
+    width: 230px;
+    height: 52px;
+    font-size: 15px;
+  }
+
+  /* block2 */
+
+  .block2__advantages {
+    justify-content: space-evenly;
+    padding: 0px 0 30px 0;
+  }
+
+  .block2__advantages_box {
+    width: 295px;
+  }
+
+  .block2__advantages_text1 {
+    font-size: 20px;
+  }
+
+  .block2__advantages_text2 {
+    font-size: 13px;
+    line-height: 111%;
+  }
+
+  .block2__advantages_img1 {
+    padding-left: 84px;
+    width: 70%;
+  }
+
+  .block2__advantages_img2 {
+    width: 70%;
+    padding: 24px 28px 10px 105px;
+  }
+
+  .block2__advantages_img3 {
+    width: 70%;
+    padding: 10px 19px 10px 95px;
+  }
+  /* block3 */
+
+  .block3__price_name {
+    font-size: 18px;
+  }
+
+  .block3__price_cost {
+    font-size: 25px;
+  }
+
+  .block3__price_description {
+    font-size: 13px;
+    width: 700px;
+  }
+
+  .block3__button {
+    padding: 0px 0 30px 0;
+  }
+
+  /* block4 */
+  .block4__masters {
+    justify-content: space-evenly;
+  }
+
+  .block4__masters_box {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-bottom: 30px;
+    justify-content: center;
+  }
+
+  .block4__masters_name {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .block4__masters_level {
+    font-size: 14px;
+  }
+
+  .block4__button {
+    padding: 7px 2px 0px 0;
+  }
+
+  .discount__box {
+    font-size: 21px;
+    line-height: 28px;
+    width: 376px;
+    height: 94px;
+  }
+
+  .discount__box:first-child {
+    margin: 0px 0px 15px 0px;
+  }
+
+  .block4__masters_box img {
+    width: 70%;
+  }
+
+  /* title */
+
+  .block__title {
+    padding-top: 20px;
+  }
+
+  .title2 {
+    padding: 3px 0 4px 0;
+  }
+
+  .title3 {
+    padding: 0px 0 20px 0px;
+  }
+
+  .title4 {
+    padding: 0px 0 20px 0px;
+  }
+
+  .title5 {
+    padding-bottom: 20px;
+  }
+
+  .title6 {
+    padding: 0 0 25px 2px;
+    width: 220px;
+    line-height: 28px;
+  }
+
+  .title1,
+  .title2,
+  .title3,
+  .title4,
+  .title5,
+  .title6 {
+    font-size: 27px;
+  }
+
+  .title1::before,
+  .title1::after,
+  .title2::before,
+  .title2::after,
+  .title3::before,
+  .title3::after,
+  .title4::before,
+  .title4::after,
+  .title5::before,
+  .title5::after,
+  .title6::before,
+  .title6::after {
+    width: 85px;
+  }
+
+  .title1::before {
+    left: -41.5%;
+  }
+
+  .title1::after {
+    right: -41.5%;
+  }
+
+  .title2::before {
+    left: -95%;
+  }
+
+  .title2::after {
+    right: -95%;
+  }
+
+  .title3::before {
+    left: -76%;
+  }
+
+  .title3::after {
+    right: -76%;
+  }
+
+  .title4::before {
+    left: -98%;
+  }
+
+  .title4::after {
+    right: -98%;
+  }
+
+  .title5::before {
+    left: -120%;
+  }
+
+  .title5::after {
+    right: -120%;
+  }
+
+  .title6::before {
+    left: -83px;
+    top: 30px;
+  }
+
+  .title6::after {
+    right: -83px;
+    top: 30px;
+  }
+
+  /* block5 */
+
+  .block5__about_top,
+  .block5__about_bottom {
+    padding-bottom: 0px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+
+  .block5__about_box {
+    max-width: 350px;
+  }
+
+  .block5__about_img {
+    width: 100%;
+  }
+
+  .block5__about_text {
+    max-width: 100%;
+    height: 165px;
+    padding: 0px 0px 0px 0px;
+    font-size: 15px;
+    line-height: 143%;
+  }
+
+  /* block6 */
+
+  .block6__form {
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 440px;
+    height: 400px;
+    margin-bottom: 56px;
+  }
+
+  .block6__form_leftInput {
+    margin-right: 0px;
+  }
+
+  .block6__form_leftInput input {
+    margin-bottom: 15px;
+    width: 311px;
+  }
+
+  .block6__form_leftInput input:nth-child(2) {
+    margin: 0 0 15px 0;
+  }
+
+  .block6__form_rightInput {
+    align-items: center;
+  }
+
+  .block6__form_rightInput textarea {
+    margin: 0px 0 0 0;
+  }
+
+  .block6__form_rightInput .smallButton {
+    margin: 15px 0 0px 0;
+  }
+
+  .smallButton {
+    width: 203px;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  /* block7 */
+
+  .block7__contacts {
+    width: 241px;
+    height: 212px;
+    padding: 0 8px;
+  }
+
+  .block7__contacts_title {
+    font-size: 31px;
+    padding: 5px 0px 0 0px;
+  }
+
+  .block7__contacts_phone {
+    font-size: 15px;
+    line-height: 16px;
+    padding: 11px 0 11px 0;
+  }
+
+  .block7__contacts_mail {
+    font-size: 15px;
+    line-height: 11px;
+  }
+
+  .block7__contacts_links {
+    padding: 11px 0px 11px 0px;
+  }
+
+  .block7__contacts_adress {
+    font-size: 15px;
+    line-height: 130%;
+  }
+  /* footer */
+
+  .footer p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .block1 {
+    background: url(../img/Beard_main.jpg) left top no-repeat;
+    background-size: cover;
+  }
+
+  .wrap {
+    padding: 0 10px;
+  }
+
+  /* title */
+
+  .block__title {
+    padding-top: 10px;
+  }
+
+  .title2 {
+    padding: 3px 0 4px 0;
+  }
+
+  .title3 {
+    padding: 0px 0 7px 0px;
+  }
+
+  .title4 {
+    padding: 0px 0 8px 0px;
+  }
+
+  .title5 {
+    padding-bottom: 20px;
+  }
+
+  .title6 {
+    padding: 0 0 25px 2px;
+    width: 220px;
+    line-height: 28px;
+  }
+
+  .title1,
+  .title2,
+  .title3,
+  .title4,
+  .title5,
+  .title6 {
+    font-size: 23px;
+  }
+
+  .title1::before,
+  .title1::after,
+  .title2::before,
+  .title2::after,
+  .title3::before,
+  .title3::after,
+  .title4::before,
+  .title4::after,
+  .title5::before,
+  .title5::after,
+  .title6::before,
+  .title6::after {
+    width: 30px;
+  }
+
+  .title1::before {
+    left: -17.5%;
+  }
+
+  .title1::after {
+    right: -17.5%;
+  }
+
+  .title2::before {
+    left: -40%;
+  }
+
+  .title2::after {
+    right: -40%;
+  }
+
+  .title3::before {
+    left: -32%;
+  }
+
+  .title3::after {
+    right: -32%;
+  }
+
+  .title4::before {
+    left: -42%;
+  }
+
+  .title4::after {
+    right: -42%;
+  }
+
+  .title5::before {
+    left: -50%;
+  }
+
+  .title5::after {
+    right: -50%;
+  }
+
+  .title6::before {
+    left: -9px;
+    top: 30px;
+  }
+
+  .title6::after {
+    right: -9px;
+    top: 30px;
+  }
+
+  /* block1 */
+
+  .nav_mobile {
+    display: block;
+    height: 30px;
+    padding-top: 10px;
+  }
+
+  .nav_mobile button {
+    background: url("../icons/Brgr.png") no-repeat;
+    width: 30px;
+    height: 30px;
+  }
+
+  .nav__contacts {
+    padding-top: 12px;
+  }
+
+  .nav__contacts p {
+    font-size: 11px;
+    padding: 0 0px 0 2px;
+  }
+  .adress {
+    font-size: 12px;
+  }
+
+  .nav__menu {
+    display: none;
+  }
+
+  .block1__top {
+    padding: 75px 0 75px 0;
+  }
+
+  .block1__top h1 {
+    font-size: 62px;
+  }
+
+  .block1__top p {
+    font-size: 21px;
+  }
+
+  .bigButton {
+    width: 180px;
+    height: 44px;
+    font-size: 13px;
+  }
+
+  /* block2 */
+
+  .block2__advantages {
+    justify-content: space-evenly;
+    padding: 0px 0 30px 0;
+  }
+
+  .block2__advantages_box {
+    width: 295px;
+  }
+
+  .block2__advantages_text1 {
+    font-size: 20px;
+  }
+
+  .block2__advantages_text2 {
+    font-size: 13px;
+    line-height: 111%;
+  }
+
+  .block2__advantages_img1 {
+    padding-left: 84px;
+    width: 70%;
+  }
+
+  .block2__advantages_img2 {
+    width: 70%;
+    padding: 24px 28px 10px 105px;
+  }
+
+  .block2__advantages_img3 {
+    width: 70%;
+    padding: 10px 19px 10px 95px;
+  }
+  /* block3 */
+
+  .block3__price_row:nth-child(1) {
+    margin-bottom: 0px;
+  }
+
+  .block3__price_row:nth-child(2) {
+    margin-bottom: 0px;
+  }
+
+  .block3__price_row {
+    margin-bottom: 0px;
+  }
+
+  .block3__price_name {
+    font-size: 15px;
+  }
+
+  .block3__price_cost {
+    font-size: 20px;
+  }
+
+  .block3__price_description {
+    font-size: 12px;
+    width: 700px;
+  }
+
+  .block3__price_row:last-child .block3__price_name {
+    width: 200px;
+    line-height: 22px;
+    padding-bottom: 15px;
+  }
+
+  .block3__button {
+    padding: 0px 0 30px 0;
+  }
+
+  /* block4 */
+  .block4__masters {
+    justify-content: space-evenly;
+  }
+
+  .block4__masters_box {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+
+  .block4__masters_name {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .block4__masters_level {
+    font-size: 13px;
+  }
+
+  .block4__button {
+    padding: 7px 2px 0px 0;
+  }
+
+  .discount__boxes {
+    padding-bottom: 20px;
+  }
+
+  .discount__box {
+    font-size: 18px;
+    line-height: 28px;
+    width: 243px;
+    height: 70px;
+  }
+
+  .discount__box:first-child {
+    margin: 0px 0px 15px 0px;
+  }
+
+  .block4__masters_box img {
+    width: 50%;
+    padding-bottom: 8px;
+  }
+
+  /* block5 */
+
+  .block5__about {
+    padding-bottom: 20px;
+  }
+
+  .block5__about_top,
+  .block5__about_bottom {
+    padding-bottom: 0px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+
+  .block5__about_box {
+    max-width: 294px;
+  }
+
+  .block5__about_img {
+    width: 100%;
+  }
+
+  .block5__about_text {
+    max-width: 100%;
+    height: 87px;
+    padding: 0px 0px 0px 0px;
+    font-size: 13px;
+    line-height: 143%;
+  }
+
+  /* block6 */
+
+  .block6__form {
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 300px;
+    height: 370px;
+    margin-bottom: 20px;
+  }
+
+  .block6__form_leftInput {
+    margin-right: 0px;
+  }
+
+  .block6__form_leftInput input {
+    margin-bottom: 15px;
+    width: 257px;
+  }
+
+  .block6__form_leftInput input:nth-child(2) {
+    margin: 0 0 15px 0;
+  }
+
+  .block6__form_rightInput {
+    align-items: center;
+  }
+
+  .block6__form_rightInput textarea {
+    margin: 0px 0 0 0;
+    width: 257px;
+  }
+
+  .block6__form_rightInput .smallButton {
+    margin: 15px 0 0px 0;
+  }
+
+  .smallButton {
+    width: 159px;
+    height: 34px;
+    font-size: 13px;
+  }
+
+  /* block7 */
+
+  .block7__contacts {
+    width: 241px;
+    height: 212px;
+    padding: 0 8px;
+    top: 15px;
+    left: 15px;
+  }
+
+  .block7__contacts_title {
+    font-size: 31px;
+    padding: 5px 0px 0 0px;
+  }
+
+  .block7__contacts_phone {
+    font-size: 15px;
+    line-height: 16px;
+    padding: 11px 0 11px 0;
+  }
+
+  .block7__contacts_mail {
+    font-size: 15px;
+    line-height: 11px;
+  }
+
+  .block7__contacts_links {
+    padding: 11px 0px 11px 0px;
+  }
+
+  .block7__contacts_adress {
+    font-size: 15px;
+    line-height: 130%;
+  }
+  /* footer */
+
+  .footer {
+    height: 48px;
+  }
+
+  .footer p {
+    font-size: 13px;
+    padding: 0px 0px 0 0;
+  }
+}
